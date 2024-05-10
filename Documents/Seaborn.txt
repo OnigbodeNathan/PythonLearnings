@@ -1,0 +1,52 @@
+SEABORN
+use .load_dataset("filename") to load the table
+KDE kernel density estimation
+
+use .distplot() to draw a histogram representaion of a data
+use .jointplot(x= ,y= ,data= ) to merge  2 plots into a scatterplot 
+you can pass in the (kind = ) argument to change from scatter to either 
+ regressin hex KDE etc differnt tyes of correlation graphs
+use .pairplot(data, hue='column" palette= 'color')
+ to create every single combination of the numerical coolumns
+categorical means non continues
+use .rugplot(data[column]) to make a single line density graph
+	it draws a dash for every instance of the distribution
+use .kdeplot(data[column]) to make a kde graph of the column data
+
+categorical data
+use .barplot(x= , y= , data= , estimator= np.std, np.mean )
+	 to show the cetegorical data of the mean
+use .countplot(x= ,data= )
+	is used to show the total number or occurences of a column in a data
+use .boxplot(x= , y= , data= ,hue= )to show the quartiles of the dataset
+use .violinplot(x=, y= , data= ,hue=, split = true )
+	 to show the advanced distribution of the data across a category
+use .stripplot(x=, y= ,data=, jitter = true, hue= )
+		 to draw a scatter plot of a categorical column
+use .swarmplot(x= ,y= ,data= )
+		the combination of a strip and a violin plot 
+		* dont use for large dataset
+use .factorplot(x=,y=,data= , kind= ,hue= ) the most general plot
+
+Matrix plot - heat maps
+use .corr() to for a matrix correlation version of a data set
+use .heatmap(data, annot=true, cmap='colormaps') to form a heatmap
+use .pivot_table(index=, column = , value = )to convert to a matrix form
+use .clustermap(data) to show the data in a hierarchial format of cluster 
+use .PairGrid(data) to form a grid form of the pairplot
+use .map(plt.plottype, column(s)*)
+	* depending on the number of srguments the plot type needs)
+	.map_diag, map_upper, map_lower 	
+	to map across the grids of the PairGrid
+    
+*** insert screenshot ***
+
+Regression plots
+use .lmplot(x= ,y=, data= ,hue=, markers=['x','y'], ['s'=int ], aspect=, size=,
+		palette = "colormap')
+	to form linear model plots
+use .set_style("specified keywords')
+use .despine() to remove the spine (borders)
+use .set_context() to set the context
+
+** insert screenshot***

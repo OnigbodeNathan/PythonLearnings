@@ -1,0 +1,26 @@
+Data visualization
+matplotlib
+note to print the graph you have to use plt.show()
+ it works as a print graph statement
+functional method and  object oriented method
+use .subplot() to plot multiple graphs in the same page
+use .figure() to create a blank canvas
+use .add_axes([left,bottom,width,height]) to create a graph 
+*note the values must be less than 1
+for oop use set_xlabel() as opposed to functional which you only use xlabel()
+same as to set_title() and title()
+use .tight_layout() to space overlapping graphs
+.subplot auto configures your axes for you
+
+figure size aspect ratio and DPI(dots per inch)
+use .figure(nrows,ncols, figsize=(length,height), DPI)
+use .savefig("filename.extension") to save
+use .legend(loc=0) to add legend  *note make sure you have labelled your plots
+use .plot(x,y,  color='color',linewidth=int,alpha = < 1, linestyle = 'signs'
+		marker = 'specified letters and signs', markersize = int
+		, markerfacecolor = 'color',markeredgewidth = int,
+		 markeredgecolor = 'color')
+ to set the color, linewidth and transparency, and marker points
+use .set_xlim([from int, to int])
+
+

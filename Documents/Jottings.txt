@@ -1,0 +1,50 @@
+note to mention the column or row name 
+in square breackets before calling the method
+
+starting from merging and concantenation
+pd.merge
+joining is the process of combining 2 df into a single index
+it is similar to marging except it is combining from the index instead of the column
+review
+concantenate is via .concat(zxis is optional)
+merge is pd.merge(culumn key[s])
+
+operations
+use the .unique to specify unique values
+.nunuque for finding the number of unique values
+note unique values is just values that have not been repeated before
+
+conditional selcetion
+df[df['columns']> num
+using the df[column].apply(custom function/ builtin function)
+ to create a column that is using the set in function
+ to the values in the said column
+ works with lambda function
+use .drop to remove columns and rember that inline is used to set to permanent
+usw .columns or .index to get the names of the needful
+use .sort_values(by ='coulum or index name') 
+use .isnull() to find if there is a null value
+use .pivot_table(values, index and columns) used to make multilevel tables
+ ** insert screenshot pivot_table***
+
+Data Input And Output LecTure
+CSV, Excel Html and SQL
+use pd.read_(mulltiple various extensions)
+ to use pandas to read various file types
+you can also do this for .to_(various extensions)
+pandas can read and write excel files 
+u can use .read_html to read websites
+how to build a SPL engine that allows you to read tables as dataframes
+use piMySQL for mysql
+
+solutions
+import pandas as pd
+sal = pd.read_csv('Salaries.csv')
+sal.info()
+sal['BasePay'].mean()
+sal['OvertimePay'].max()
+sal[sal['EmployeeName'] == 'Joseph]['JobTitle']
+*** insert  2 screenshot of salary ***
+
+use .corr to check for correlation between job titles
+*** insert job corr screenshot ***

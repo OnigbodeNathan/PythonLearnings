@@ -1,0 +1,17 @@
+plotly and cufflinks
+*** insert screenshot for plotly init***
+use .iplot() because it is cool
+use .iplot(kind = 'scatter',x = ,y = ,mode = 'markers') for op scatter plot
+use .iplot(kind = 'bar' , x = ,y=) for op bar chart
+use .iplot(kind = 'box')
+use of .count() and .sum() are also applicanle before .iplot
+use .iplot(kind = 'surface')
+use .iplot(kind='hist' , bins = )
+use .iplot(kind='spread')
+use .iplot(kind="bubble", x=,y= ,size=)
+use .scatter_matrix()
+use .iplot(kind = 'heatmap') to create an interactive heatmap
+use .iplot(kind = 'candle' ) to form a candle map
+
+Geograplhic plots
+*** refer to screen shot***

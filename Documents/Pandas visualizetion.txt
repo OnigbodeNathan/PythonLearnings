@@ -1,0 +1,14 @@
+Pandas visualization
+you can do the histogram first or plot first
+use .plot.area(alpha) to plot an area
+use .plot.bar(stack = true) 
+	to plot a long bar graph preferable for categorical data
+use .plot.hist() to plot histograms
+use .plot.line(x= ,y= ) to create a line graph * enables matplotlib commands
+use .plot.scatter(x=, y=,c = ) *c is used to make the info 3D
+use .plot.box() to create box plots
+use .plot.hexbin() to make a scatterplot of a hexagonal format
+use .plot.kde() or plot.density to form a kernel density graph 
+use plt.style.use("ggplot") to add customization
+
+***insert screenshot *** to show the legend outside
