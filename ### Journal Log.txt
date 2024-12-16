@@ -1,0 +1,72 @@
+### Journal Log
+
+#### **Date:** [Insert Date]  
+#### **Author:** [Your Name]  
+#### **Title:** Development of an Automated Grading System with Inbuilt Plagiarism Checker  
+
+---
+
+#### **Entry 1: Overview of the Study**  
+Today, I initiated a study focusing on the development of an **Automated Grading System with an Inbuilt Plagiarism Checker**. This project addresses key challenges in traditional assessment methods, such as the manual effort required for grading and the subjective nature of scoring. 
+The proposed system aims to provide a reliable and efficient solution for grading short-answer and essay-type responses while ensuring originality through plagiarism detection.  
+
+The study is grounded in recent advancements in **Natural Language Processing (NLP)** and **Machine Learning (ML)**. 
+These technologies enable the system to evaluate linguistic patterns, content relevance, and semantic structures. The integration of a plagiarism detection module further strengthens the system's capability by identifying and flagging unoriginal content.
+
+---
+
+#### **Entry 2: Background and Rationale**  
+The traditional grading process, while effective in small-scale settings, is increasingly becoming impractical in larger educational environments, particularly in the context of digital and online learning platforms. This inefficiency is compounded by the issue of academic dishonesty, such as plagiarism, which undermines educational objectives.  
+
+To address these challenges, automated grading systems have emerged as a scalable and consistent alternative. However, most existing systems lack robust mechanisms to ensure the originality of responses. By combining automated grading with a built-in plagiarism checker, this project aims to promote fairness and uphold academic integrity.  
+
+The development of this system is supported by:
+1. **Research on NLP and ML models** that can process and evaluate natural language efficiently.
+2. The increasing availability of large datasets, enabling effective training of algorithms to identify semantic similarity and plagiarism.  
+3. Growing demand for scalable assessment solutions in online education platforms.
+
+---
+
+#### **Entry 3: Goals and Objectives**  
+The primary objectives of this study are:  
+- **To develop an automated grading system** capable of evaluating short-answer and essay responses based on linguistic accuracy, relevance, and depth of content.  
+- **To incorporate a plagiarism detection mechanism** that identifies copied content using text similarity analysis and semantic understanding.  
+- **To enhance scalability and efficiency** in assessment processes, enabling educational institutions to handle large volumes of responses with consistency.  
+- **To promote academic integrity**, ensuring that students are encouraged to submit original work.
+
+---
+
+#### **Entry 4: Challenges and Considerations**  
+While the benefits of the system are promising, some challenges need to be addressed:  
+1. **Understanding Nuanced Responses**: Grading creative or contextually unique answers may require advanced semantic analysis.  
+2. **Fairness and Bias**: The system must avoid unintended biases that may arise from the training data.  
+3. **Integration with Learning Platforms**: Ensuring compatibility with popular online education platforms for seamless implementation.  
+4. **Data Privacy and Security**: Protecting student data during grading and plagiarism checks.  
+
+---
+
+#### **Entry 5: Next Steps**  
+The next phase of the project involves:  
+- Conducting a literature review to explore existing automated grading and plagiarism detection systems.  
+- Identifying suitable NLP and ML frameworks for system development.  
+- Collecting and preparing datasets for training the grading and plagiarism detection algorithms.  
+- Designing a prototype for testing and refinement.  
+
+This journal will document progress, challenges, and key findings throughout the development process.  
+
+The system will first clean the input text and then break it down to tokens, then the tokens will be transformed into vector representation which captures semantic relationships allowing context and meaning understanding. 
+Transformers will be implored to allow larger chunk processing which makes it suitable foe essay grading. Semantic similarity scoring will allow the system to measure how the student’s answer aligns with a models answer finally a feedback system will be developed to enable adaptability of the model.
+
+The research data is mostly going to be collected from datasets in the online website “Kaggle.com” and previous models from the same website will be studied and used as preliminary thesis for the development of the system. 
+Text Preprocessing, Tokenization, Embedding, Representation Learning, Sentence and Document-Level Analysis, Similarity and Relevance Analysis, Sentiment and Grammar Analysis are key words that will be used in the study. 
+#### 5. **Challenges and Limitations**  
+While AGS with plagiarism detection offer numerous advantages, challenges remain:  
+- **Contextual Understanding**: Automated systems.  
+- **Dependence on Training Data**: ML-based systems require extensive, high-quality training data to function effectively.  
+#### 6. **Recent Advances and Future Directions**  
+
+Future advancements could include adaptive systems capable of learning from educator feedback, enhancing their grading accuracy. Additionally, integrating blockchain technology could improve the transparency and traceability of plagiarism detection.  
+Frameworks for system development will be identified and datasets optimized with plagiarism detection algorithms will be collected and prepared resulting to the design of a prototype for testing and refinement.
+
+CORRECTIONS 
+synth id implements watermark 
